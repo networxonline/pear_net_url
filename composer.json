@@ -1,0 +1,24 @@
+{
+    "name": "pear/net_url",
+    "description": "legacy Net_URL package",
+    "type": "library",
+    "keywords": [
+        "pear",
+        "net",
+        "url",
+        "uri",
+        "networking",
+        "rfc3986"
+    ],
+    "homepage": "https://github.com/pear/Net_URL",
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": ">=5.1.4"
+    },
+    "autoload": {
+        "classmap": ["Net/URL.php"]
+    },
+    "include-path": [
+        "./"
+    ]
+}
